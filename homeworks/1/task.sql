@@ -2,16 +2,17 @@
 INSERT INTO
     users
 SET
+    id = 10,
     first_name = 'Никита',
     last_name = 'Петров';
 
 -- 2
 INSERT INTO
-    products (name, count, price)
+    products (id, name, count, price)
 VALUES
-    ('iPhone 7', 1, 59990),
-    ('iPhone 8', 3, 64990),
-    ('iPhone X', 2, 79900);
+    (9, 'iPhone 7', 1, 59990),
+    (10, 'iPhone 8', 3, 64990),
+    (11, 'iPhone X', 2, 79900);
 
 -- 3
 UPDATE products

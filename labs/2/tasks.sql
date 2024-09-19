@@ -1,35 +1,36 @@
 -- 1
 INSERT INTO
-    products (name, count, price)
+    products (id, name, count, price)
 VALUES
-    ('Xbox', 3, 30000);
+    (7, 'Xbox', 3, 30000);
 
 -- 2
 INSERT INTO
-    products (name, count, price)
+    products (id, name, count, price)
 VALUES
-    ('iMac 21', 0, 100100);
+    (8, 'iMac 21', 0, 100100);
 
 -- 3
 INSERT INTO
-    users (first_name, last_name, birthday)
+    users (id, first_name, last_name, birthday)
 VALUES
-    ('Антон', 'Пепеляев', '1992-07-12');
+    (9, 'Антон', 'Пепеляев', '1992-07-12');
 
 -- 4
 INSERT INTO
     users
 SET
+    id = 10,
     first_name = 'Никита',
     last_name = 'Петров';
 
 -- 5
 INSERT INTO
-    products (name, count, price)
+    products (id, name, count, price)
 VALUES
-    ('iPhone 7', 1, 59990),
-    ('iPhone 8', 3, 64990),
-    ('iPhone X', 2, 79900);
+    (9, 'iPhone 7', 1, 59990),
+    (10, 'iPhone 8', 3, 64990),
+    (11, 'iPhone X', 2, 79900);
 
 -- 6
 UPDATE products
