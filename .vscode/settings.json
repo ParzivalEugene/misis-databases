@@ -1,3 +1,4 @@
 {
-  "Prettier-SQL.SQLFlavourOverride": "mysql"
+  "Prettier-SQL.SQLFlavourOverride": "mysql",
+  "Prettier-SQL.expressionWidth": 120
 }
